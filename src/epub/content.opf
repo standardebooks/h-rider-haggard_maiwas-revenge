@@ -28,6 +28,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Maiwa’s Revenge</dc:title>
 		<meta property="file-as" refines="#title">Maiwa’s Revenge</meta>
+		<meta property="dcterms:alternative" refines="#title">The War of the Little Hand</meta>
 		<dc:subject id="subject-1">Africa -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Revenge -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Hunting guides -- Fiction</dc:subject>
@@ -40,46 +41,55 @@
 		<meta property="term" refines="#subject-3">sh2008122139</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008110305</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Allan Quatermain</meta>
+	<meta property="collection-type" refines="#collection-1">series</meta>
+	<meta property="group-position" refines="#collection-1">3</meta>
+		<dc:description id="description">A famed hunter aids a tribe in a plot for revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+		<p>After a day's worth of shooting at his estate, legendary hunter <a href="https://standardebooks.org/collections/allan-quatermain">Allan Quatermain</a> settles down, lights a pipe, and tells his comanions of a journey he himself undertook in the wilds of Africa.</p>
+	<p>On expedition, Quatermain, while looking for ivory, meets Maiwa, a runaway African princess who is intent on avenging her child. She also brings a desperate note from an old friend, once thought dead. Braving buffalo, rhinos, elephants, and rivaling tribes, Quatermain finds himself in the middle of a plot to wage war on the notorious African chief Wambe.</p>
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2713</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/maiwasrevengeorw00hagg</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Maiwa%27s_Revenge</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_maiwas-revenge</meta>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n80010495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Alexandre Calame</dc:contributor>
+		<meta property="file-as" refines="#artist">Calame, Alexandre</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Alexandre_Calame</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n88617561</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Bickers, John</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Dagny</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Dagny</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Emma Dudding</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Dudding, Emma</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-4">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-4">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Elizabeth Miller-Boldt</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Miller-Boldt, Elizabeth</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
