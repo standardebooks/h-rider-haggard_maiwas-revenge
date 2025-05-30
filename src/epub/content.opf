@@ -44,12 +44,12 @@
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Allan Quatermain</meta>
-	<meta property="collection-type" refines="#collection-1">series</meta>
-	<meta property="group-position" refines="#collection-1">3</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">3</meta>
 		<dc:description id="description">A famed hunter aids a tribe in a plot for revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-		<p>After a day's worth of shooting at his estate, legendary hunter <a href="https://standardebooks.org/collections/allan-quatermain">Allan Quatermain</a> settles down, lights a pipe, and tells his comanions of a journey he himself undertook in the wilds of Africa.</p>
-	<p>On expedition, Quatermain, while looking for ivory, meets Maiwa, a runaway African princess who is intent on avenging her child. She also brings a desperate note from an old friend, once thought dead. Braving buffalo, rhinos, elephants, and rivaling tribes, Quatermain finds himself in the middle of a plot to wage war on the notorious African chief Wambe.</p>
+			&lt;p&gt;After a day's worth of shooting at his estate, legendary hunter &lt;a href="https://standardebooks.org/collections/allan-quatermain"&gt;Allan Quatermain&lt;/a&gt; settles down, lights a pipe, and tells his comanions of a journey he himself undertook in the wilds of Africa.&lt;/p&gt;
+			&lt;p&gt;On expedition, Quatermain, while looking for ivory, meets Maiwa, a runaway African princess who is intent on avenging her child. She also brings a desperate note from an old friend, once thought dead. Braving buffalo, rhinos, elephants, and rivaling tribes, Quatermain finds himself in the middle of a plot to wage war on the notorious African chief Wambe.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2713</dc:source>
