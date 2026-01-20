@@ -55,7 +55,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2713</dc:source>
 		<dc:source>https://archive.org/details/maiwasrevengeorw00hagg</dc:source>
-		<meta property="se:word-count">34651</meta>
+		<meta property="se:word-count">34470</meta>
 		<meta property="se:reading-ease.flesch">74.32</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Maiwa%27s_Revenge</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_maiwas-revenge</meta>
